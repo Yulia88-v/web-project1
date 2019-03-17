@@ -1,0 +1,68 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>HomeWork2</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <div class="nav">
+        <a href="index.html"><img src="../img/Logo.png" alt="logo" class="nav_logo"></a>
+        <div class="nav_links">
+            <a href="index.html" class="nav_link">Home</a>
+            <a href="#" class="nav_link">About me</a>
+            <a href="#" class="nav_link">Portfolio</a>
+            <a href="#" class="nav_link">Contact me</a>
+        </div>
+        <button class="nav_link-toggle">Menu</button>
+    </div>
+    <div class="poster">
+        <div class="poster_text">we need the tonic of <p>wildness</p>
+        </div>
+        <div class="poster_knob"><button type="button">Read more</button></div>
+        <div class="poster_dot">&#149;&#149;<span class="poster_dot_active">&#149;</span>&#149;&#149;</div>
+    </div>
+    <div class="info">
+        <!--no p in span-->
+        <span class="info_text">At the same time that we are earnest to explore
+            <p>& learn all things</p>
+        </span>
+        <span class="info_text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quisquam qui asperiores id, necessitatibus soluta eum numquam sed, quasi, explicabo excepturi porro aliquam nemo error blanditiis laudantium laboriosam vero ab.
+        </span>
+        <div class="marker">
+            <img src="../img/korz.png" alt="korz">
+            <img src="../img/glob.png" alt="glob">
+            <img src="../img/portfel.png" alt="portfel"></div>
+    </div>
+    <div class="info-2">
+        <img src="../img/avatar.png" alt="face" class="info-2_avatar">
+        <img src="../img/username.png" alt="dhavan" class="info-2_username">
+        <span class="info-2_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Alias ea magni dicta tempora nulla possimus, quia corporis,doloribus incidunt dignissimos et vitae hic repellat assumenda? Ea architecto voluptatum, nihil repellendus.</span>
+    </div>
+    <div class="info-map">
+        <div class="info-map_ellipse">
+            <form class="info-map_ellipse-form">
+                <input type="text" placeholder="Name" class="info-map_ellipse-form-1">
+                <input type="text" placeholder="Email adress" class="info-map_ellipse-form-2">
+                <textarea name="Message" cols="25" rows="5" placeholder="Message"></textarea>
+            </form>
+            <img src="../img/check.png" alt="check" class="info-map_check">
+        </div>
+    </div>
+    <div class="info-bottom">
+        <span>copyright &#169; 2019 css author.com </span>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        $(".nav_link-toggle").click(function() {
+            $(".nav_links").toggleClass("nav_links-opened");
+        });
+    </script>
+</body>
+
+  </html>
